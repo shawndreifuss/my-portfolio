@@ -1,55 +1,14 @@
+import React from 'react';
+const styles = {
+  projectImage: {
+   backgroundImage: url('https://source.unsplash.com/random/?sig=1')
+  }
+}
+
 
 export default function Work() {
     return (
-      <div>
-      <section className="project py-5" id="project">
-      <div className="container">
-              
-              <div className="row">
-                <div className="col-lg-11 text-center mx-auto col-12">
-
-                    <div className="col-lg-8 mx-auto">
-                      <h2>Things I have designed for digital media agencies</h2>
-                    </div>
-
-                    <div className="owl-carousel owl-theme">
-                      <div className="item">
-                        <div className="project-info">
-                          <img src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350" className="img-fluid" alt="project image"></img>
-                        </div>
-                      </div>
-
-                      <div className="item">
-                        <div className="project-info">
-                          <img src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350" className="img-fluid" alt="project image"></img>
-                        </div>
-                      </div>
-
-                      <div class="item">
-                        <div className="project-info">
-                          <img src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350" className="img-fluid" alt="project image"></img>
-                        </div>
-                      </div>
-
-                      <div className="item">
-                        <div className="project-info">
-                          <img src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350" className="img-fluid" alt="project image"></img>
-                        </div>
-                      </div>
-
-                      <div class="item">
-                        <div class="project-info">
-                          <img src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350" className="img-fluid" alt="project image"></img>
-                        </div>
-                      </div>
-                    </div>
-
-                </div>
-              </div>
-      </div>
-  </section>
   
-
 <section className="colorlib-work" data-section="work">
 <div className="colorlib-narrow-content">
   <div className="row">
@@ -60,95 +19,82 @@ export default function Work() {
   </div>
   <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
     <div className="col-md-12">
-      <p className="work-menu"><span><a href="#" class="active">Web Applications</a></span></p>
+      <p className="work-menu"><span><a href="#" className="active">Web Applications</a></span></p>
     </div>
   </div>
   <div className="row">
     <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-      <div className="project" src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350">
+      <div className="project" style={styles.projectImage}>
         <div className="desc">
           <div className="con">
             <h3><a href="work.html">Work 01</a></h3>
             <span>Website</span>
             <p className="icon">
-              <span><a href="#"><i className="icon-share3"></i></a></span>
-              <span><a href="#"><i className="icon-eye"></i> 100</a></span>
-              <span><a href="#"><i className="icon-heart"></i> 49</a></span>
+             
             </p>
           </div>
         </div>
       </div>
     </div>
     <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-      <div className="project" src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350">
+      <div className="project" style={styles.projectImage}>
         <div className="desc">
           <div className="con">
             <h3><a href="work.html">Work 02</a></h3>
-            <span>Animation</span>
+            <span>Application</span>
             <p className="icon">
-              <span><a href="#"><i className="icon-share3"></i></a></span>
-              <span><a href="#"><i className="icon-eye"></i> 100</a></span>
-              <span><a href="#"><i className="icon-heart"></i> 49</a></span>
+              
             </p>
           </div>
         </div>
       </div>
     </div>
     <div className="col-md-6 animate-box" data-animate-effect="fadeInTop">
-      <div className="project" src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350">
+      <div className="project" style={styles.projectImage}>
         <div className="desc">
           <div className="con">
             <h3><a href="work.html">Work 03</a></h3>
-            <span>Illustration</span>
+            <span>Application</span>
             <p className="icon">
-              <span><a href="#"><i className="icon-share3"></i></a></span>
-              <span><a href="#"><i className="icon-eye"></i> 100</a></span>
-              <span><a href="#"><i className="icon-heart"></i> 49</a></span>
+              
             </p>
           </div>
         </div>
       </div>
     </div>
     <div className="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-      <div className="project" src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350">
+      <div className="project" style={styles.projectImage}>
         <div className="desc">
           <div className="con">
-            <h3><a href="work.html">Work 04</a></h3>
+            <h3><a href="work.html">Work 4</a></h3>
             <span>Application</span>
             <p className="icon">
-              <span><a href="#"><i className="icon-share3"></i></a></span>
-              <span><a href="#"><i className="icon-eye"></i> 100</a></span>
-              <span><a href="#"><i className="icon-heart"></i> 49</a></span>
+              
             </p>
           </div>
         </div>
       </div>
     </div>
     <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-      <div className="project" src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350">
+      <div className="project" style={styles.projectImage}>
         <div className="desc">
           <div className="con">
-            <h3><a href="work.html">Work 05</a></h3>
-            <span>Graphic, Logo</span>
+            <h3><a href="work.html">Work 5</a></h3>
+            <span>Logo Generator</span>
             <p className="icon">
-              <span><a href="#"><i className="icon-share3"></i></a></span>
-              <span><a href="#"><i className="icon-eye"></i> 100</a></span>
-              <span><a href="#"><i className="icon-heart"></i> 49</a></span>
+              
             </p>
           </div>
         </div>
       </div>
     </div>
     <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-      <div className="project" src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350">
+      <div className="project" style={styles.projectImage}>
         <div className="desc">
           <div className="con">
-            <h3><a href="work.html">Work 06</a></h3>
+            <h3><a href="work.html">Work 6</a></h3>
             <span>Web Design</span>
             <p className="icon">
-              <span><a href="#"><i className="icon-share3"></i></a></span>
-              <span><a href="#"><i className="icon-eye"></i> 100</a></span>
-              <span><a href="#"><i className="icon-heart"></i> 49</a></span>
             </p>
           </div>
         </div>
@@ -157,12 +103,11 @@ export default function Work() {
   </div>
   <div className="row">
     <div className="col-md-12 animate-box">
-      <p><a href="#" className="btn btn-primary btn-lg btn-load-more">Load more <i className="icon-reload"></i></a></p>
     </div>
   </div>
 </div>
 </section>
-</div>
+
     );
   }
   

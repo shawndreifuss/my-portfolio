@@ -21,7 +21,10 @@
       body {
         font-size: 16px; } }
   
-  a {
+  
+ 
+  
+        a {
     color: #2c98f0;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;

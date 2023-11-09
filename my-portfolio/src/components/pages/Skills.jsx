@@ -3,76 +3,76 @@ import './skills.css'
 export default function Skills() {
     return (
 
-      <section class="colorlib-services" data-section="services">
-      <div class="colorlib-narrow-content">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-            <span class="heading-meta">What I do?</span>
-            <h2 class="colorlib-heading">Here are some of my expertise skills</h2>
+      <section className="colorlib-services" data-section="services">
+      <div className="colorlib-narrow-content">
+        <div className="row">
+          <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+            <span className="heading-meta">What I do?</span>
+            <h2 className="colorlib-heading">Here are some of my expertise skills</h2>
           </div>
         </div>
-        <div class="row row-pt-md">
-          <div class="col-md-4 text-center animate-box">
-            <div class="services color-1">
-              <span class="icon">
-                <i class="icon-bulb"></i>
+        <div className="row row-pt-md">
+          <div className="col-md-4 text-center animate-box">
+            <div className="services color-1">
+              <span className="icon">
+                <i className="icon-bulb"></i>
               </span>
-              <div class="desc">
+              <div className="desc">
                 <h3>React</h3>
                 <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 text-center animate-box">
-            <div class="services color-2">
-              <span class="icon">
-                <i class="icon-data"></i>
+          <div className="col-md-4 text-center animate-box">
+            <div className="services color-2">
+              <span className="icon">
+                <i className="icon-data"></i>
               </span>
-              <div class="desc">
+              <div className="desc">
                 <h3>CSS</h3>
                 <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 text-center animate-box">
-            <div class="services color-3">
-              <span class="icon">
-                <i class="icon-phone3"></i>
+          <div className="col-md-4 text-center animate-box">
+            <div className="services color-3">
+              <span className="icon">
+                <i className="icon-phone3"></i>
               </span>
-              <div class="desc">
+              <div className="desc">
                 <h3>JavaScript</h3>
                 <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 text-center animate-box">
-            <div class="services color-4">
-              <span class="icon">
-                <i class="icon-layers2"></i>
+          <div className="col-md-4 text-center animate-box">
+            <div className="services color-4">
+              <span className="icon">
+                <i className="icon-layers2"></i>
               </span>
-              <div class="desc">
+              <div className="desc">
                 <h3>Node.js</h3>
                 <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 text-center animate-box">
-            <div class="services color-5">
-              <span class="icon">
-                <i class="icon-data"></i>
+          <div className="col-md-4 text-center animate-box">
+            <div className="services color-5">
+              <span className="icon">
+                <i className="icon-data"></i>
               </span>
-              <div class="desc">
+              <div className="desc">
                 <h3>MongoDB</h3>
                 <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 text-center animate-box">
-            <div class="services color-6">
-              <span class="icon">
-                <i class="icon-phone3"></i>
+          <div className="col-md-4 text-center animate-box">
+            <div className="services color-6">
+              <span className="icon">
+                <i className="icon-phone3"></i>
               </span>
-              <div class="desc">
+              <div className="desc">
                 <h3>Express</h3>
                 <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
               </div>

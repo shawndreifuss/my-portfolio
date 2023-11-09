@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import Navbar from './Navbar';
 import Home from './pages/Home';
-import About from './pages/about';
+import About from './pages/About';
 import Work from './pages/Work';
 import Skills from './pages/Skills';
 import Contact from './pages/Contact';
+
 
 function PortfolioContainer() {
     //set default page to home 
@@ -16,7 +17,7 @@ function PortfolioContainer() {
             return <Home />;
         }
         if (currentPage === 'About') {
-            return <About />;
+            return <About currentPage={currentPage} handlePageChange={handlePageChange}/>;
         }
         if (currentPage === 'Work') {
             return <Work />;
