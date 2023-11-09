@@ -1,39 +1,41 @@
 
 export default function About() {
     return (
-<section className="about d-lg-flex justify-content-center " id="about">
-	<div className="container">
-		<div className="row">
-			
-			<div className=" d-flex align-items-right">
-				<div className="about-text">
-					<small className="small-text">Welcome to <span className="mobile-block">my portfolio website!</span></small>
-					<h1 className="animated animated-text">
-						<span className="mr-2">Hey folks, I'm</span>
-							<div className="animated-info">
-								<span className="animated-item">Marvel Sann</span>
-								<span className="animated-item">Web Designer</span>
-								<span className="animated-item">UI Specialist</span>
-							</div>
-					</h1>
+<section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                        <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
+                        <h1 class="animated animated-text">
+                            <span class="mr-2">Hello Everyone, I'm</span>
+                                <div class="animated-info">
+                                    <span class="animated-item">Shawn</span>
+                                    <span class="animated-item">Dreifuss</span>
+									<span class="animated-item">Developer</span>
+                                </div>
+                        </h1>
 
-					<p>Building a successful product is a challenge. I am highly energetic in user experience design, interfaces and web development.</p>
-					
-					<div className="custom-btn-group mt-4">
-					  <a href="#" class="btn mr-lg-2 custom-btn"><i className='uil uil-file-alt'></i> Download Resume</a>
-					  <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Get a free quote</a>
-					</div>
-				</div>
-			</div>
+                        <p>Building a successful product is a challenge. I am highly energetic in user experience design, interfaces and web development.
+							I am currently attending UCLA with Full Stack Coding!
+						</p>
+                        
+                        <div class="custom-btn-group mt-4">
+                          <a href="#" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
+                          <a href="#work" class="btn custom-btn custom-btn-bg custom-btn-link">My Work</a>
+                        </div>
+                    </div>
+                </div>
 
-			<div className="col-lg-5 col-md-12 col-12">
-				<div className="about-image svg">
-					<img src="" className="img-fluid" alt="svg image"></img>
-				</div>
-			</div>
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="about-image svg">
+                        <img src="images/undraw/undraw_software_engineer_lvl5.svg" class="img-fluid" alt="svg image"></img>
+                    </div>
+                </div>
 
-		</div>
-	</div>
-</section>
+            </div>
+        </div>
+    </section>
 );
 }

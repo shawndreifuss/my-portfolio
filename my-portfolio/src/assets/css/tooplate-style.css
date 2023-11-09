@@ -116,7 +116,7 @@ b, strong {
 }
 
 .animated-item {
-  color: #ffc200;
+  color: #0d90c8;
 }
 
 .animated-item {
@@ -136,6 +136,9 @@ b, strong {
 }
 .animated-item:nth-child(3n+3) {
   animation-delay: 4s;
+}
+.animated-item:nth-child(4n+4) {
+  animation-delay: 6s;
 }
 
 @keyframes BottomTotop {
