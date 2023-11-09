@@ -39,7 +39,7 @@ export default function Navbar({ currentPage, handlePageChange }) {
                     <li class="nav-item">
                         <a href="#contact" onClick={() => handlePageChange('Contact')} 
                         className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-                        class="nav-link"><span data-hover="Home">Contact</span></a>
+                        class="nav-link"><span data-hover="Contact">Contact</span></a>
                     </li>
                 </ul>
             </div>

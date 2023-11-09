@@ -1,21 +1,86 @@
+import './skills.css'
+
 export default function Skills() {
     return (
-      <div>
-        <h1>Contact Page</h1>
-        <p>
-          Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-          molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-          magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-          efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-          mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-          posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-          faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-          ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-          dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-          conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-          rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-        </p>
+
+      <section class="colorlib-services" data-section="services">
+      <div class="colorlib-narrow-content">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+            <span class="heading-meta">What I do?</span>
+            <h2 class="colorlib-heading">Here are some of my expertise skills</h2>
+          </div>
+        </div>
+        <div class="row row-pt-md">
+          <div class="col-md-4 text-center animate-box">
+            <div class="services color-1">
+              <span class="icon">
+                <i class="icon-bulb"></i>
+              </span>
+              <div class="desc">
+                <h3>React</h3>
+                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 text-center animate-box">
+            <div class="services color-2">
+              <span class="icon">
+                <i class="icon-data"></i>
+              </span>
+              <div class="desc">
+                <h3>CSS</h3>
+                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 text-center animate-box">
+            <div class="services color-3">
+              <span class="icon">
+                <i class="icon-phone3"></i>
+              </span>
+              <div class="desc">
+                <h3>JavaScript</h3>
+                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 text-center animate-box">
+            <div class="services color-4">
+              <span class="icon">
+                <i class="icon-layers2"></i>
+              </span>
+              <div class="desc">
+                <h3>Node.js</h3>
+                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 text-center animate-box">
+            <div class="services color-5">
+              <span class="icon">
+                <i class="icon-data"></i>
+              </span>
+              <div class="desc">
+                <h3>MongoDB</h3>
+                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 text-center animate-box">
+            <div class="services color-6">
+              <span class="icon">
+                <i class="icon-phone3"></i>
+              </span>
+              <div class="desc">
+                <h3>Express</h3>
+                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </section>
     );
   }
   
