@@ -1,5 +1,7 @@
 // Using object destructuring to pluck- off variables
 // Assign them to their own variable names
+
+// to do add style to auth-img    style="background-image: url(images/about.jpg);"
 export default function Navbar({ currentPage, handlePageChange }) {
     return (
         <div id="colorlib-page">
@@ -7,7 +9,7 @@ export default function Navbar({ currentPage, handlePageChange }) {
 		<a href="#" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
 		<aside id="colorlib-aside" role="complementary" className="border js-fullheight">
 			<div className="text-center">
-				<div className="author-img" style="background-image: url(images/about.jpg);"></div>
+				<div className="author-img" ></div>
 				<h1 id="colorlib-logo"><a href="index.html">Shawn Dreifuss</a></h1>
 				<span className="position"><a href="#">Full Stack Developer</a> in San Diego</span>
 			</div>
@@ -55,6 +57,7 @@ export default function Navbar({ currentPage, handlePageChange }) {
  </aside>
   </div>
 </div>
+
 );
 }
 
