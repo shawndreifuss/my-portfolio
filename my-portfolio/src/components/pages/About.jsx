@@ -1,57 +1,39 @@
+
 export default function About() {
     return (
-<section class="colorlib-about" data-section="about">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="col-md-12">
-									<div class="about-desc">
-										<span class="heading-meta">About Me</span>
-										<h2 class="colorlib-heading">Who Am I?</h2>
-										<p><strong>Hi I'm Shawn Dreifuss</strong> On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
-										<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-									</div>
-								</div>
+<section className="about d-lg-flex justify-content-center " id="about">
+	<div className="container">
+		<div className="row">
+			
+			<div className=" d-flex align-items-right">
+				<div className="about-text">
+					<small className="small-text">Welcome to <span className="mobile-block">my portfolio website!</span></small>
+					<h1 className="animated animated-text">
+						<span className="mr-2">Hey folks, I'm</span>
+							<div className="animated-info">
+								<span className="animated-item">Marvel Sann</span>
+								<span className="animated-item">Web Designer</span>
+								<span className="animated-item">UI Specialist</span>
 							</div>
-							<div class="row">
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-									<div class="services color-1">
-										<span class="icon2"><i class="icon-bulb"></i></span>
-										<h3>Full-Stack</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
-									<div class="services color-2">
-										<span class="icon2"><i class="icon-globe-outline"></i></span>
-										<h3>Web Design</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
-									<div class="services color-3">
-										<span class="icon2"><i class="icon-data"></i></span>
-										<h3>Software</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
-									<div class="services color-4">
-										<span class="icon2"><i class="icon-phone3"></i></span>
-										<h3>Application</h3>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<div class="hire">
-										<h2>I am happy to know you <br>that 300+ projects done sucessfully!</br></h2>
-										<a href="#" class="btn-hire">Hire me</a>
-									</div>
-								</div>
-							</div>
-						</div>
+					</h1>
+
+					<p>Building a successful product is a challenge. I am highly energetic in user experience design, interfaces and web development.</p>
+					
+					<div className="custom-btn-group mt-4">
+					  <a href="#" class="btn mr-lg-2 custom-btn"><i className='uil uil-file-alt'></i> Download Resume</a>
+					  <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Get a free quote</a>
 					</div>
 				</div>
-			</section>
+			</div>
 
-    )
-};
+			<div className="col-lg-5 col-md-12 col-12">
+				<div className="about-image svg">
+					<img src="" className="img-fluid" alt="svg image"></img>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+);
+}
