@@ -1,6 +1,6 @@
 // Using object destructuring to pluck- off variables
 // Assign them to their own variable names
-function Navbar({ currentPage, handlePageChange }) {
+export default function Navbar({ currentPage, handlePageChange }) {
     return (
         <div id="colorlib-page">
 		<div className="container-wrap">
@@ -58,5 +58,3 @@ function Navbar({ currentPage, handlePageChange }) {
 );
 }
 
-// Exporting function navbar
-export default Navbar

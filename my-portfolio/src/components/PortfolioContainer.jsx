@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Navbar from './Navbar';
+import Navbar from './navBar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Work from './pages/Work';
@@ -7,7 +7,7 @@ import Skills from './pages/Skills';
 import Contact from './pages/Contact';
 
 export default function PortfolioContainer() {
-    //set deafult page to home 
+    //set default page to home 
     const [currentPage, setCurrentPage] = useState('Home');
 
     // Method to check currentPage and return component to render
@@ -34,7 +34,7 @@ export default function PortfolioContainer() {
     return (
         <body>
           <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-          <div>{renderPage()}</div>
+          {renderPage()}
         </body>
             )
 };
