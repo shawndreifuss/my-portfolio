@@ -52,7 +52,7 @@ export default function Skills() {
               </span>
               <div className="desc">
                 <h3>Backend Developer</h3>
-                <p>My Favorite!! Anything is posible to develop and im looking forward to the future with JavaScript.</p>
+                <p>My Favorite! I have used JavaScript to build and deploy many project in Github.</p>
               </div>
             </div>
           </div>
