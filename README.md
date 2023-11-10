@@ -26,7 +26,7 @@ Explore through this dynamic Portfolio! On the Homepage you can view a little bi
 
 ## Deployment
 
-This portfolio is deployed on Netlify. You can view the live version [here]().
+This portfolio is deployed on Netlify. You can view the live version [here](https://endearing-beijinho-8c8320.netlify.app/#home).
 
 ## License
 
