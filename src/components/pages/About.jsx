@@ -36,7 +36,7 @@ export default function About({ currentPage, handlePageChange }) {
                   <div class="column">
                     <div class="col-sm-6 col-md-5">
                       <div class="profile-img1">
-                        <img src="/images/IMG_5474.jpeg" class="img-fluid"></img>
+                        <img src="/images/IMG_5474.jpeg" class="img-fluid" id='down'></img>
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-7">
