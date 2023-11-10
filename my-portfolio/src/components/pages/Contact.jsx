@@ -13,7 +13,7 @@ export default function Contact() {
 
             <div className="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
                 <div className="contact-info-item">
-                  <h3 className="mb-3 text-white">Say Hi!</h3>
+                  <h3 className="mb-3 text-white">Contact Me!</h3>
                   <p className="footer-text mb-0">760 470 0245</p>
                   <p><a href="mailto:shawndreifuss@icloud.com">ShawnDreifuss@icloud.com</a></p>
                 </div>

@@ -433,6 +433,14 @@
     width: 100%;
     height: 600px;
     margin-bottom: 30px; }
+
+  .profile-img1 {
+    width: 175%;
+    height: 400px;
+    margin-bottom: 30px;
+    
+
+  }
   
   .about-desc h3 {
     font-size: 18px;
@@ -564,7 +572,7 @@
     .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-2 {
       background: #ec5453; }
     .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-3 {
-      background: #f9bf3f; }
+      background: #2c98f0; }
     .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-4 {
       background: #a84cb8; }
     .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-5 {
@@ -636,9 +644,9 @@
       font-size: 16px;
       font-weight: 500; }
     .services.color-2 {
-      border-bottom: 2px solid #ec5453; }
+      border-bottom: 2px solid #ffffff; }
       .services.color-2 .icon2 i {
-        color: #ec5453; }
+        color: #000000; }
     .services.color-3 {
       border-bottom: 2px solid #f9bf3f; }
       .services.color-3 .icon2 i {
@@ -661,7 +669,7 @@
         margin-bottom: 4em; } }
     .services .icon {
       position: absolute;
-      top: -20px;
+      top: -80px;
       left: 0;
       right: 0;
       width: 100px;

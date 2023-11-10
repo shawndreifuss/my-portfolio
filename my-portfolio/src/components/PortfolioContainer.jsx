@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Navbar from './Navbar';
-import Home from './pages/Home';
+import Home from './Home';
 import About from './pages/About';
 import Work from './pages/Work';
 import Skills from './pages/Skills';

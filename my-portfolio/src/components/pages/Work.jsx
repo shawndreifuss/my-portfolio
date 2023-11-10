@@ -1,10 +1,3 @@
-import React from 'react';
-const styles = {
-  projectImage: {
-   backgroundImage: url('https://source.unsplash.com/random/?sig=1')
-  }
-}
-
 
 export default function Work() {
     return (
@@ -24,85 +17,76 @@ export default function Work() {
   </div>
   <div className="row">
     <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-      <div className="project" style={styles.projectImage}>
+      <div className="project placeholder1">
         <div className="desc">
           <div className="con">
-            <h3><a href="work.html">Work 01</a></h3>
-            <span>Website</span>
+            <h3><a href="">Project 1</a></h3>
+            <span>Application</span>
             <p className="icon">
-             
             </p>
           </div>
         </div>
       </div>
     </div>
     <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-      <div className="project" style={styles.projectImage}>
+      <div className="project placeholder2" >
         <div className="desc">
           <div className="con">
-            <h3><a href="work.html">Work 02</a></h3>
-            <span>Application</span>
-            <p className="icon">
-              
+            <h3><a href="https://github.com/shawndreifuss/ShapeShift#usage">ShapeShift</a></h3>
+            <span>Workout-Blog</span>
+            <p className="icon"> 
             </p>
           </div>
         </div>
       </div>
     </div>
     <div className="col-md-6 animate-box" data-animate-effect="fadeInTop">
-      <div className="project" style={styles.projectImage}>
+      <div className="project placeholder3">
         <div className="desc">
           <div className="con">
-            <h3><a href="work.html">Work 03</a></h3>
+            <h3><a href="work.html">Project 3</a></h3>
             <span>Application</span>
             <p className="icon">
-              
             </p>
           </div>
         </div>
       </div>
     </div>
     <div className="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-      <div className="project" style={styles.projectImage}>
+      <div className="project placeholder4 " >
         <div className="desc">
           <div className="con">
-            <h3><a href="work.html">Work 4</a></h3>
-            <span>Application</span>
+            <h3><a href="work.html">Project 4</a></h3>
+            <span>Weather Application</span>
             <p className="icon">
-              
             </p>
           </div>
         </div>
       </div>
     </div>
     <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-      <div className="project" style={styles.projectImage}>
+      <div className="project placeholder5">
         <div className="desc">
           <div className="con">
-            <h3><a href="work.html">Work 5</a></h3>
+            <h3><a href="work.html">Project 5</a></h3>
             <span>Logo Generator</span>
             <p className="icon">
-              
             </p>
           </div>
         </div>
       </div>
     </div>
     <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-      <div className="project" style={styles.projectImage}>
+      <div className="project placeholder6">
         <div className="desc">
           <div className="con">
-            <h3><a href="work.html">Work 6</a></h3>
+            <h3><a href="https://github.com/shawndreifuss/coding-quiz">Quizlet</a></h3>
             <span>Web Design</span>
             <p className="icon">
             </p>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div className="row">
-    <div className="col-md-12 animate-box">
     </div>
   </div>
 </div>
