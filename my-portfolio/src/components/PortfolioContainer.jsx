@@ -5,7 +5,7 @@ import About from './pages/About';
 import Work from './pages/Work';
 import Skills from './pages/Skills';
 import Contact from './pages/Contact';
-
+import Footer from './pages/Footer'
 
 function PortfolioContainer() {
     //set default page to home 
@@ -35,6 +35,7 @@ function PortfolioContainer() {
         <>
           <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
           <>{renderPage()}</>
+          <Footer />
         </>
             )
 };
