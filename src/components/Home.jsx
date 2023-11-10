@@ -1,6 +1,6 @@
 import React from 'react'
 import Contact from './pages/Contact.jsx';
-import Body from './Body/Body.jsx'
+import Body from './body/Body.jsx'
 
 const styles = {
   w60: {
