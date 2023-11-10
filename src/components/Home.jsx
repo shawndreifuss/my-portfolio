@@ -60,7 +60,7 @@ export default function Home() {
 
               <div className="col-lg-5 col-md-12 col-12">
                   <div className="about-image">
-                      <img src='./public/images/home.jpg' className="img-fluid"></img>
+                      <img src='/images/home.jpg' className="img-fluid"></img>
                   </div>
               </div>
 
