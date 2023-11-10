@@ -57,7 +57,7 @@ export default function About({ currentPage, handlePageChange }) {
                       </h5>
                     </div>
                     <p className="lead">
-					ueled by high energy levels and boundless enthusiasm, 
+					Fueled by high energy levels and boundless enthusiasm, 
 					I'm easily inspired and more then willing to follow my fascinations wherever they take me. 
 					I'm passionate, expressive, multi-talented spirit with a natural ability to entertain and inspire.
 					 I'm never satisfied to just come up with ideas. Instead I have an almost impulsive need to act on them.

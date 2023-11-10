@@ -5,7 +5,7 @@ export default function Work() {
 <section className="colorlib-work" data-section="work">
 <div className="colorlib-narrow-content">
   <div className="row">
-    <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+    <div className="col-md-4 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
       <span className="heading-meta">My Work</span>
       <h2 className="colorlib-heading animate-box">Recent Work</h2>
     </div>
@@ -16,7 +16,7 @@ export default function Work() {
     </div>
   </div>
   <div className="row">
-    <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+    <div className="col-lg-4 animate-box" data-animate-effect="fadeInLeft">
       <div className="project placeholder1">
         <div className="desc">
           <div className="con">
@@ -28,7 +28,7 @@ export default function Work() {
         </div>
       </div>
     </div>
-    <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
+    <div className="col-lg-4 animate-box" data-animate-effect="fadeInRight">
       <div className="project placeholder2" >
         <div className="desc">
           <div className="con">
@@ -40,7 +40,7 @@ export default function Work() {
         </div>
       </div>
     </div>
-    <div className="col-md-6 animate-box" data-animate-effect="fadeInTop">
+    <div className="col-lg-4 animate-box" data-animate-effect="fadeInTop">
       <div className="project placeholder3">
         <div className="desc">
           <div className="con">
@@ -52,7 +52,7 @@ export default function Work() {
         </div>
       </div>
     </div>
-    <div className="col-md-6 animate-box" data-animate-effect="fadeInBottom">
+    <div className="col-lg-4 animate-box" data-animate-effect="fadeInBottom">
       <div className="project placeholder4 " >
         <div className="desc">
           <div className="con">
@@ -64,7 +64,7 @@ export default function Work() {
         </div>
       </div>
     </div>
-    <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+    <div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
       <div className="project placeholder5">
         <div className="desc">
           <div className="con">
@@ -76,7 +76,7 @@ export default function Work() {
         </div>
       </div>
     </div>
-    <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
+    <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
       <div className="project placeholder6">
         <div className="desc">
           <div className="con">
