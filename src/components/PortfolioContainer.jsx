@@ -22,9 +22,7 @@ function PortfolioContainer() {
         if (currentPage === 'Work') {
             return <Work />;
         }
-        if (currentPage === 'Skills') {
-            return <Skills />;
-        }
+        
          return <Contact />;
     
     };
@@ -34,7 +32,9 @@ function PortfolioContainer() {
     return (
         <>
           <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+          { currentPage === 'Work' ? (<link  rel="stylesheet" href='../../src/assets/css/work.scss'></link>) : <></>}
           <>{renderPage()}</>
+          { currentPage === 'Work' ? (<script  rel="stylesheet" href='../../src/assets/js/work.js'></script>) : <></>}
           <Footer />
         </>
             )

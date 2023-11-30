@@ -1,20 +1,169 @@
 
-export default function Work() {
+
+export default function Work( ) {
     return (
   
-<section className="colorlib-work" data-section="work">
+<>
+
+
+<div className="cont s--inactive">
+ 
+  <div className="cont__inner">
+   
+    <div className="el">
+      <div className="el__overflow">
+        <div className="el__inner">
+          <div className="el__bg"></div>
+          <div className="el__preview-cont">
+            <h2 className="el__heading">Section 1</h2>
+          </div>
+          <div className="el__content">
+            <div className="el__text">Whatever</div>
+            <div className="el__close-btn"></div>
+          </div>
+        </div>
+      </div>
+      <div className="el__index">
+        <div className="el__index-back">1</div>
+        <div className="el__index-front">
+          <div className="el__index-overlay" data-index="1">1</div>
+        </div>
+      </div>
+    </div>
+    
+    <div className="el">
+      <div className="el__overflow">
+        <div className="el__inner">
+          <div className="el__bg"></div>
+          <div className="el__preview-cont">
+            <h2 className="el__heading">Section 2</h2>
+          </div>
+          <div className="el__content">
+            <div className="el__text">Whatever</div>
+            <div className="el__close-btn"></div>
+          </div>
+        </div>
+      </div>
+      <div className="el__index">
+        <div className="el__index-back">2</div>
+        <div className="el__index-front">
+          <div className="el__index-overlay" data-index="2">2</div>
+        </div>
+      </div>
+    </div>
+   
+    <div className="el">
+      <div className="el__overflow">
+        <div className="el__inner">
+          <div className="el__bg"></div>
+          <div className="el__preview-cont">
+            <h2 className="el__heading">Section 3</h2>
+          </div>
+          <div className="el__content">
+            <div className="el__text">Whatever</div>
+            <div className="el__close-btn"></div>
+          </div>
+        </div>
+      </div>
+      <div className="el__index">
+        <div className="el__index-back">3</div>
+        <div className="el__index-front">
+          <div className="el__index-overlay" data-index="3">3</div>
+        </div>
+      </div>
+    </div>
+  
+    <div className="el">
+      <div className="el__overflow">
+        <div className="el__inner">
+          <div className="el__bg"></div>
+          <div className="el__preview-cont">
+            <h2 className="el__heading">Section 4</h2>
+          </div>
+          <div className="el__content">
+            <div className="el__text">Whatever</div>
+            <div className="el__close-btn"></div>
+          </div>
+        </div>
+      </div>
+      <div className="el__index">
+        <div className="el__index-back">4</div>
+        <div className="el__index-front">
+          <div className="el__index-overlay" data-index="4">4</div>
+        </div>
+      </div>
+    </div>
+    
+    <div className="el">
+      <div className="el__overflow">
+        <div className="el__inner">
+          <div className="el__bg"></div>
+          <div className="el__preview-cont">
+            <h2 className="el__heading">Section 5</h2>
+          </div>
+          <div className="el__content">
+            <div className="el__text">Whatever</div>
+            <div className="el__close-btn"></div>
+          </div>
+        </div>
+      </div>
+      <div className="el__index">
+        <div className="el__index-back">5</div>
+        <div className="el__index-front">
+          <div className="el__index-overlay" data-index="5">5</div>
+        </div>
+      </div>
+    </div>
+   
+  </div>
+ 
+</div>
+
+
+</>
+
+
+    );
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* <section className="colorlib-work" data-section="work">
 <div className="colorlib-narrow-content">
   <div className="row">
     <div className="col-md-4 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
       <span className="heading-meta">My Work</span>
-      <h2 className="colorlib-heading animate-box">Recent Work</h2>
+      <a href="https://github.com/shawndreifuss" title="LinkedIn" className="btn btn-linkedin btn-lg"><div className="fa fa-linkedin fa-fw"></div>LinkedIn</a><div></div>
     </div>
   </div>
-  <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-    <div className="col-md-12">
-      <p className="work-menu"><span><a href="#" className="active">Web Applications</a></span></p>
-    </div>
-  </div>
+  
   <div className="row">
     <div className="col-lg-4 animate-box" data-animate-effect="fadeInLeft">
       <div className="project placeholder1">
@@ -90,8 +239,6 @@ export default function Work() {
     </div>
   </div>
 </div>
-</section>
+</section> */}
 
-    );
-  }
-  
+    
