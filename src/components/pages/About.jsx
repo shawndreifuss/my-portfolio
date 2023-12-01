@@ -26,30 +26,30 @@ const styles = {
 }
 export default function About({ currentPage, handlePageChange }) {
     return (
-      <section id="about" class="about-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="column">
-                    <div class="col-sm-6 col-md-5">
-                      <div class="profile-img1">
-                        <img src="/images/IMG_5474.jpeg" class="img-fluid" id='down'></img>
+      <section id="about" className="about-mf sect-pt4 route">
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12">
+            <div className="box-shadow-full">
+              <div className="row">
+                <div className="col-md-6">
+                  <div className="column">
+                    <div className="col-sm-6 col-md-5">
+                      <div className="profile-img1">
+                        <img src="/images/IMG_5474.jpeg" className="img-fluid" id='down'></img>
                       </div>
                     </div>
-                    <div class="col-sm-6 col-md-7">
-                      <div class="about-info">
-                        <p><span class="title-s">Name: </span> <span>Shawn Dreifuss</span></p>
-                        <p><span class="title-s">Profile: </span> <span>Full Stack Developer</span></p>
-                        <p><span class="title-s">Email: </span> <span>ShawnDreifuss@icloud.com</span></p>
-                        <p><span class="title-s">Phone: </span> <span>(760) 470-0245</span></p>
+                    <div className="col-sm-6 col-md-7">
+                      <div className="about-info">
+                        <p><span className="title-s">Name: </span> <span>Shawn Dreifuss</span></p>
+                        <p><span className="title-s">Profile: </span> <span>Full Stack Developer</span></p>
+                        <p><span className="title-s">Email: </span> <span>ShawnDreifuss@icloud.com</span></p>
+                        <p><span className="title-s">Phone: </span> <span>(760) 470-0245</span></p>
                       </div>
                     </div>
                  </div>   
                </div>
-                <div class="col-md-6">
+                <div className="col-md-6">
                   <div className="about-me pt-4 pt-md-0">
                     <div className="title-box-2">
                       <h5 className="title-left">

@@ -1,5 +1,4 @@
 import React from 'react'
-import Contact from './pages/Contact.jsx';
 import Body from './body/Body.jsx'
 
 const styles = {
@@ -27,7 +26,6 @@ const styles = {
 
 }
 
-
 export default function Home() {
     return (
       <>
@@ -38,17 +36,21 @@ export default function Home() {
               <div className="col-lg-7 col-md-12 col-12 d-flex align-items-center">
                   <div className="about-text">
                       <small className="small-text">Welcome to <span className="mobile-block">My portfolio Website!</span></small>
-                      <h1 className="animated animated-text">
-                          <span className="mr-2">Hello Everyone, I'm</span>
+                   
+                             <h1 className="animated animated-text">
                               <div className="animated-info">
-                                  <span className="animated-item">Shawn</span>
-                                  <span className="animated-item">Dreifuss</span>
-                <span className="animated-item">Developer</span>
-                              </div>
-                      </h1>
+                                  <span className="animated-item">Hello! I'm Shawn Dreifuss</span>
+                                 
+                                  <span className="animated-item">Developer</span>
+                                   <span className="animated-item">A Full-Stack</span>
+                                    </div>
+                      </h1> 
+
+                
+                           
 
                       <p>Building a successful product is a challenge. I am highly energetic in user experience design, interfaces and web development.
-            I am currently attending UCLA with Full Stack Coding!
+            I am currently attending UCLA as a Full-Stack Developer!
           </p>
                       
                       <div className="custom-btn-group mt-4">
@@ -68,8 +70,7 @@ export default function Home() {
       </div>
   </div>
 < Body />
-      <Contact />
-      </>
+</>
       
 );
   }

@@ -5,7 +5,7 @@ export default function Navbar({ currentPage, handlePageChange }) {
     return (
         <nav className="navbar navbar-expand-sm navbar-light">
         <div className="container">
-            <a className="navbar-brand" href="#about"onClick={() => handlePageChange('About')} ><i className='uil uil-user'></i> Shawn Dreifuss</a>
+            <a className="navbar-brand" href="#about"onClick={() => handlePageChange('About')} ><i className='uil uil-cloud-download'>Shawn Dreifuss</i></a>
 
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">

@@ -1,12 +1,12 @@
 export default function Footer() {
     return (
-<footer class="footer py-5">
-      <div class="container">
-           <div class="row">
+<footer className="footer py-5">
+      <div className="container">
+           <div className="row">
 
-                <div class="col-lg-12 col-12">                                
-                    <p class="copyright-text text-center"> 2023 Designed by Shawn Dreifuss</p>
-                    <p class="copyright-text text-center"> Shawn Dreifuss </p>
+                <div className="col-lg-12 col-12">                                
+                    <p className="copyright-text text-center"> 2023 Designed by Shawn Dreifuss</p>
+                    <p className="copyright-text text-center"> Shawn Dreifuss </p>
                 </div>
                 
            </div>
