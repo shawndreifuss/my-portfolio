@@ -84,7 +84,7 @@ export default function About({ currentPage, handlePageChange }) {
           </div>
         </div>
       </div>
-      <div className="colorlib-skills" data-section="skills">
+      {/* <div className="colorlib-skills" data-section="skills">
 				<div className="colorlib-narrow-content">
 					<div className="row">
 						<div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -164,7 +164,7 @@ export default function About({ currentPage, handlePageChange }) {
 					</div>
 				</div>
 			</div>
-      
+       */}
       
     </section>
 );
