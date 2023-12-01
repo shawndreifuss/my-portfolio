@@ -45,7 +45,7 @@ export default function Body() {
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="#">Back End developer hello</a></h2>
+					               	<h2><a href="#">Back End developer</a></h2>
 					                  {/* <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p> */}
 					               </div>
 					            </div>

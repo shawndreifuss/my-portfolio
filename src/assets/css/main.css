@@ -670,6 +670,10 @@ b, strong {
  
 }
 
+.placeholer1{
+  background-image: url('../../../public/images/ping.png');
+}
+
 
 
 .btn-linkedin {
@@ -688,7 +692,25 @@ b, strong {
   color: #fff;
 }
 
+.placeholder2{
+  background-image: url('/images/ping.png');
+}
 
+.placeholder1{
+  background-image: url('/images/project-image05.png');
+}
+.placeholder3{
+  background-image: url('/images/codingquiz.png');
+}
+.placeholder4{
+  background-image: url('/images/tinywear.png');
+}
+.placeholder5{
+  background-image: url('/images/socialapi.png');
+}
+.placeholder6{
+  background-image: url('/images/travelguide.png');
+}
 
 
 
