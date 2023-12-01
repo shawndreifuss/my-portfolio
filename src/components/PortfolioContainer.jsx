@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import Home from './Home';
 import About from './pages/About';
 import Work from './pages/Work';
-import './pages/Skills.css'
+
 
 import Contact from './pages/Contact';
 import Footer from './pages/Footer'
