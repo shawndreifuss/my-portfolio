@@ -3,7 +3,8 @@ import Navbar from './Navbar';
 import Home from './Home';
 import About from './pages/About';
 import Work from './pages/Work';
-import Skills from './pages/Skills';
+import './pages/Skills.css'
+
 import Contact from './pages/Contact';
 import Footer from './pages/Footer'
 
@@ -22,7 +23,7 @@ function PortfolioContainer() {
         if (currentPage === 'Work') {
             return <Work />;
         }
-        
+
          return <Contact />;
     
     };

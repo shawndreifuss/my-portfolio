@@ -54,7 +54,7 @@ export default function Home() {
           </p>
                       
                       <div className="custom-btn-group mt-4">
-                        <a href="#" className="btn mr-lg-2 custom-btn custom-btn-bg"><i className='uil uil-file-alt'></i> Download Resume</a>
+                        <a href="/images/Shawn_Dreifuss.resume.pdf" download className="btn mr-lg-2 custom-btn custom-btn-bg"><i className='uil uil-file-alt'></i> Download Resume</a>
                     
                       </div>
                   </div>

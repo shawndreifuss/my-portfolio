@@ -25,10 +25,6 @@ export default function Navbar({ currentPage, handlePageChange }) {
                         className={currentPage === 'About' ? 'nav-link active' : 'nav-link'} ><span data-hover="About">About</span></a>
                     </li>
                     <li className="nav-item">
-                        <a href="#skills" onClick={() => handlePageChange('Skills')} 
-                        className={currentPage === 'Skills' ? 'nav-link active' : 'nav-link'} ><span data-hover="Skills">Skills</span></a>
-                    </li>
-                    <li className="nav-item">
                         <a href="#work" onClick={() => handlePageChange('Work')} 
                         className={currentPage === 'Work' ? 'nav-link active' : 'nav-link'} ><span data-hover="Work">Work</span></a>
                     </li>
