@@ -1,705 +1,461 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Portfolio</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<meta name="author" content="" />
+<!DOCTYPE html>
+<html lang="en" itemscope>
 
-  <!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <title>
+        Shawn Dreifuss Portfolio
+    </title>
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+    <!-- Nucleo Icons -->
+    <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <!-- CSS Files -->
+    <link id="pagestyle" href="../assets/css/material-kit.css?v=3.0.4" rel="stylesheet" />
+</head>
 
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
+<body class="blog-author bg-gray-200">
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg position-absolute top-0 z-index-3 w-100 shadow-none my-3  navbar-transparent ">
+        <div class="container">
+            <a class="navbar-brand  text-white " href="shawndreifuss.com" rel="tooltip" title="Shawn Dreifuss Portfolio"
+                data-placement="bottom" target="_blank">
+                Shawn Dreifuss
+            </a>
+            <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon mt-2">
+                    <span class="navbar-toggler-bar bar1"></span>
+                    <span class="navbar-toggler-bar bar2"></span>
+                    <span class="navbar-toggler-bar bar3"></span>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0 ms-lg-12 ps-lg-5" id="navigation">
+                <ul class="navbar-nav navbar-nav-hover ms-auto">
+                    <li class="nav-item dropdown dropdown-hover mx-2 ms-lg-6">
+                        <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
+                            id="dropdownMenuPages8" data-bs-toggle="dropdown" aria-expanded="false">
+                            Home
+                            <img src="../assets/img/down-arrow-white.svg" alt="down-arrow"
+                                class="arrow ms-2 d-lg-block d-none">
+                            <img src="../assets/img/down-arrow-dark.svg" alt="down-arrow"
+                                class="arrow ms-2 d-lg-none d-block">
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-lg mt-0 mt-lg-3"
+                            aria-labelledby="dropdownMenuPages8">
+                            <div class="d-none d-lg-block">
+                                <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1">
+                                    <!-- Navbar links for large screen -->
+                                </h6>
+                                <a href="#about-me" class="dropdown-item border-radius-md">
+                                    <span>About Me </span>
+                                </a>
+                                <a href=".#contact-me" class="dropdown-item border-radius-md">
+                                    <span>Contact Me </span>
+                                </a>
+                                <a href="#work" class="dropdown-item border-radius-md">
+                                    <span>My Work</span>
+                                </a>
+                            </div>
+                            <!-- Navbar links for small screens -->
+                            <div class="d-lg-none">
+                                <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1">
 
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
-	<!-- Flaticons  -->
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+                                </h6>
+                                <a href="#about-me" class="dropdown-item border-radius-md">
+                                    <span>About Me </span>
+                                </a>
+                                <a href=".#contact-me" class="dropdown-item border-radius-md">
+                                    <span>Contact Me </span>
+                                </a>
+                                <a href="#work" class="dropdown-item border-radius-md">
+                                    <span>My Work</span>
+                                </a>
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+                            </div>
+                        </div>
+                    </li>
+                    <!--  Links for large screens -->
+                    <li class="nav-item dropdown dropdown-hover mx-2">
+                        <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
+                            id="dropdownMenuBlocks" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="material-icons opacity-6 me-2 text-md">view_day</i>
+                            Links
+                            <img src="../assets/img/down-arrow-white.svg" alt="down-arrow"
+                                class="arrow ms-2 d-lg-block d-none">
+                            <img src="../assets/img/down-arrow-dark.svg" alt="down-arrow"
+                                class="arrow ms-2 d-lg-none d-block">
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-animation dropdown-menu-end dropdown-md dropdown-md-responsive p-3 border-radius-lg mt-0 mt-lg-3"
+                            aria-labelledby="dropdownMenuBlocks">
+                            <div class="d-none d-lg-block">
+                                <li class="nav-item dropdown dropdown-hover dropdown-subitem">
+                                    <a class="dropdown-item py-2 ps-3 border-radius-md"
+                                        href="https://github.com/shawndreifuss">
+                                        <div class="w-100 d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <h6
+                                                    class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+                                                    Github</h6>
+                                                <span class="text-sm">View my Github</span>
+                                            </div>
+                                            <img src="../assets/img/down-arrow.svg" alt="down-arrow" class="arrow">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown dropdown-hover dropdown-subitem">
+                                    <a class="dropdown-item py-2 ps-3 border-radius-md"
+                                        href="https://www.linkedin.com/in/shawn-dreifuss-a1a60023b/">
+                                        <div class="w-100 d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <h6
+                                                    class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+                                                    LinkedIn</h6>
+                                                <span class="text-sm">View my LinkedIn</span>
+                                            </div>
+                                            <img src="../assets/img/down-arrow.svg" alt="down-arrow" class="arrow">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown dropdown-hover dropdown-subitem">
+                                    <a class="dropdown-item py-2 ps-3 border-radius-md"
+                                        href="./images/Shawn_Dreifuss.resume.pdf" download>
+                                        <div class="w-100 d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <h6
+                                                    class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+                                                    Resume</h6>
+                                                <span class="text-sm">Download my Resume</span>
+                                            </div>
+                                            <img src="../assets/img/down-arrow.svg" alt="down-arrow" class="arrow">
+                                        </div>
+                                    </a>
+                                </li>
+                            </div>
 
-	</head>
-	<body>
-	<div id="colorlib-page">
-		<div class="container-wrap">
-		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
-			<div class="text-center">
-				<div class="author-img" style="background-image: url(images/IMG_5935.jpeg);"></div>
-				<h1 id="colorlib-logo"><a href="index.html">Shawn Dreifuss</a></h1>
-				<span class="position"><a href="#">Full Stack Developer</a> in San Diego</span>
-			</div>
-			<nav id="colorlib-main-menu" role="navigation" class="navbar">
-				<div id="navbar" class="collapse">
-					<ul>
-						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
-						<li><a href="#" data-nav-section="about">About</a></li>
-						<!-- <li><a href="#" data-nav-section="skills">Skills</a></li>
-						<li><a href="#" data-nav-section="education">Education</a></li> -->
-						<li><a href="#" data-nav-section="experience">Experience</a></li>
-						<li><a href="#" data-nav-section="work">Work</a></li>
-						<li><a href="#" data-nav-section="contact">Contact</a></li>
-						
-					</ul>
-					
-					
-				</div>
-				
-				
-			</nav>
+                            <!-- Links For mobile screens -->
+                            <div class="row d-lg-none">
+                                <div class="col-md-12">
+                                    <div class="d-flex mb-2">
+                                        <div class="icon h-10 me-3 d-flex mt-1">
+                                            <i class="ni ni-single-copy-04 text-gradient text-primary"></i>
+                                        </div>
+                                        <div class="w-100 d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <h6
+                                                    class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+                                                    Links</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="dropdown-item ps-3 border-radius-md mb-1"
+                                        href="https://github.com/shawndreifuss">
+                                        Github
+                                    </a>
+                                    <a class="dropdown-item ps-3 border-radius-md mb-1"
+                                        href="https://www.linkedin.com/in/shawn-dreifuss-a1a60023b/">
+                                        LinkedIn
+                                    </a>
+                                    <a class="dropdown-item ps-3 border-radius-md mb-1"
+                                        href="./images/Shawn_Dreifuss.resume.pdf" download>
+                                        Resume
+                                    </a>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="nav-item ms-lg-auto">
+                        <a class="nav-link nav-link-icon me-2" href="https://github.com/shawndreifuss" target="_blank">
+                            <i class="fa fa-github me-1"></i>
+                            <p class="d-inline text-sm z-index-1 font-weight-bold" data-bs-toggle="tooltip"
+                                data-bs-placement="bottom" title="Star us on Github">Github</p>
+                        </a>
+                    </li>
+                    <li class="nav-item my-auto ms-3 ms-lg-0">
+                        <a href="/images/Shawn_Dreifuss.resume.pdf"
+                            class="btn btn-sm  bg-gradient-info  mb-0 me-1 mt-2 mt-md-0 " download>Dowload Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
 
-			<div class="colorlib-footer">
-					<ul>
-					
-					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
-				</ul>
-			</div>
+    <!-- -------- START HEADER IMAGE ------- -->
+    <header>
+        <div class="page-header min-height-400" style="background-image: url('/assets/img/bg2.jpg');" loading="lazy">
+            <span class="mask bg-gradient-primary opacity-4"></span>
+        </div>
+    </header>
+    <!-- -------- END HEADER  ------- -->
+    <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-4">
+        <!-- START Testimonials w/ user image & text & info -->
+        <section class="py-sm-7 py-5 position-relative">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mx-auto">
+                        <div class="mt-n8 mt-md-n9 text-center">
+                            <img class="avatar avatar-xxl shadow-xl position-relative z-index-2"
+                                src="/images/IMG_5935.jpeg" alt="shawn" loading="lazy">
+                        </div>
+                        <div class="row py-5">
+                            <div class="col-lg-7 col-md-7 z-index-2 position-relative px-md-2 px-sm-5 mx-auto">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h3 class="mb-0">Shawn Dreifuss</h3>
+                                </div>
+                                <p class="text-lg mb-0">
+                                    Hi I'm Shawn Dreifuss Fueled by high energy levels and boundless enthusiasm, I'm
+                                    easily inspired and more then willing to follow my fascinations wherever they take
+                                    me. I'm passionate, expressive, multi-talented spirit with a natural ability to
+                                    entertain and inspire. I'm never satisfied to just come up with ideas. Instead I
+                                    have an almost impulsive need to act on them.
 
-		</aside>
+                                    My abundant energy fuels me in the pursuit of many interests, hobbies, areas of
+                                    study and artistic endeavors. I'm a fast learner, able to pick up new skills and
+                                    juggle different projects and roles with relative ease.
 
-		<div id="colorlib-main">
-			<section id="colorlib-hero" class="js-fullheight" data-section="home">
-				<div class="flexslider js-fullheight">
-					<ul class="slides">
-				   	<li style="background-image: url(images/img_bg_3.jpg);">
-				   		<div class="overlay bg"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner js-fullheight">
-					   					<div class=" headerTitle">
-						   					<h1 >Hi! <br>I'm Shawn</h1>
-												<p><a href="/images/Shawn_Dreifuss.resume.pdf" download class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p>
-												</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				   	<li style="background-image: url(images/img_bg_3.jpg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner">
-					   					<div class=" headerTitle1">
-						   					<h1> <br>Full Stack Developer</h1>
-												<p><a href="https://github.com/shawndreifuss" title="Github" class="btn btn-primary btn-learn">View Portfolio <i class="icon-briefcase3"></i></a></p>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				  	</ul>
-			  	</div>
-			</section>
+                                    I don't like to define myself by the work I've done. I define myself by the work I
+                                    want to do. Skills can be taught, personality is inherent. I prefer to keep
+                                    learning, continue challenging myself, and do interesting things that matter <br>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END Testimonials w/ user image & text & info -->
+        <!-- START Blogs w/ 4 cards w/ image & text & link -->
+        <section class="py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h3 class="mb-5">Check out my latest Projects</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card card-plain">
+                            <div class="card-header p-0 position-relative">
+                                <a class="d-block blur-shadow-image">
+                                    <img src="/images/chat-app-cover.png" alt="img-blur-shadow"
+                                        class="img-fluid h-100 shadow border-radius-lg" loading="lazy">
+                                </a>
+                            </div>
+                            <div class="card-body px-0">
+                                <h5>
+                                    <a href="https://github.com/shawndreifuss/chat-app" class="text-dark font-weight-bold">Real Time Chat App</a>
+                                </h5>
+                                <p>
+                                    Created with React, HTML5, SCSS, Node.js, Express, Firebase and Socket.io. This app allows users to
+                                </p>
+                                <a href="https://github.com/shawndreifuss/chat-app" class="text-info text-sm icon-move-right">Read More
+                                    <i class="fas fa-arrow-right text-xs ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card card-plain">
+                            <div class="card-header p-0 position-relative">
+                                <a class="d-block blur-shadow-image">
+                                    <img src="/images/blog-cover.png" alt="img-blur-shadow"
+                                        class="img-fluid shadow border-radius-lg" loading="lazy">
+                                </a>
+                            </div>
+                            <div class="card-body px-0">
+                                <h5>
+                                    <a href="https://github.com/shawndreifuss/next.js-blog" class="text-dark font-weight-bold">Blog App</a>
+                                </h5>
+                                <p>
+                                    Blog Application with an Admin Dashboard. Created with Next.js, HTML5, TailwindCss, Node.js, Express, and MongoDB 
+                                </p>
+                                <a href="https://github.com/shawndreifuss/next.js-blog" class="text-info text-sm icon-move-right">Read More
+                                    <i class="fas fa-arrow-right text-xs ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card card-plain">
+                            <div class="card-header p-0 position-relative">
+                                <a class="d-block blur-shadow-image">
+                                    <img src="/images/ai-image.png" alt="img-blur-shadow"
+                                        class="img-fluid shadow border-radius-lg" loading="lazy">
+                                </a>
+                            </div>
+                            <div class="card-body px-0">
+                                <h5>
+                                    <a href="https://github.com/shawndreifuss/ai-project" class="text-dark font-weight-bold">AI learning App
+                                        </a>
+                                </h5>
+                                <p>
+                                    Ai learning app that uses machine learning to help users learn anything asked of it. Created with HTML5, CSS and JavaScript
+                                </p>
+                                <a href="https://github.com/shawndreifuss/ai-project" class="text-info text-sm icon-move-right">Read More
+                                    <i class="fas fa-arrow-right text-xs ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12 col-12">
+                        <div class="card card-blog card-background cursor-pointer">
+                            <div class="full-background"
+                                style="background-image: url('data:image/jpeg;base64,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')" loading="lazy"></div>
+                            <div class="card-body">
+                                <div class="content-left text-start my-auto py-4">
+                                    <h2 class="card-title text-white">Check out more of my Projects</h2>
+                                    <p class="card-description text-white"> </p>
+                                    <a href="https://github.com/shawndreifuss" class="text-white text-sm icon-move-right">Read More
+                                        <i class="fas fa-arrow-right text-xs ms-1"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END Blogs w/ 4 cards w/ image & text & link -->
+    </div>
+    <section class="py-lg-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card box-shadow-xl overflow-hidden mb-5">
+                        <div class="row">
+                            <div class="col-lg-5 position-relative bg-cover px-0"
+                                style="background-image: url('/images/contact.jpeg')" loading="lazy">
+                                <div
+                                    class="z-index-2 text-center d-flex h-100 w-100 d-flex m-auto justify-content-center">
+                                    <div class="mask bg-gradient-dark opacity-8"></div>
+                                    <div class="p-5 ps-sm-8 position-relative text-start my-auto z-index-2">
+                                        <h3 class="text-white">Contact Information</h3>
+                                        <p class="text-white opacity-8 mb-4">Please Fill out the form and I will get back
+                                            to you!</p>
+                                        <div class="d-flex p-2 text-white">
+                                            <div>
+                                                <i class="fas fa-phone text-sm"></i>
+                                            </div>
+                                            <div class="ps-3">
+                                                <span class="text-sm opacity-8">(760) 470-0245</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex p-2 text-white">
+                                            <div>
+                                                <i class="fas fa-envelope text-sm"></i>
+                                            </div>
+                                            <div class="ps-3">
+                                                <span class="text-sm opacity-8">ShawnDreifuss@icloud.com</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex p-2 text-white">
+                                            <div>
+                                                <i class="fas fa-map-marker-alt text-sm"></i>
+                                            </div>
+                                            <div class="ps-3">
+                                                <span class="text-sm opacity-8">San Diego, CA</span>
+                                            </div>
+                                        </div>
+                                        <div class="mt-4">
+                                            <button type="button"
+                                                class="btn btn-icon-only btn-link text-white btn-lg mb-0"
+                                                data-toggle="tooltip" data-placement="bottom"
+                                                data-original-title="Log in with Facebook">
+                                                <i class="fab fa-facebook"></i>
+                                            </button>
+                                            <button type="button"
+                                                class="btn btn-icon-only btn-link text-white btn-lg mb-0"
+                                                data-toggle="tooltip" data-placement="bottom"
+                                                data-original-title="Log in with Twitter">
+                                                <i class="fab fa-twitter"></i>
+                                            </button>
+                                            <button type="button"
+                                                class="btn btn-icon-only btn-link text-white btn-lg mb-0"
+                                                data-toggle="tooltip" data-placement="bottom"
+                                                data-original-title="Log in with Dribbble">
+                                                <i class="fab fa-dribbble"></i>
+                                            </button>
+                                            <button type="button"
+                                                class="btn btn-icon-only btn-link text-white btn-lg mb-0"
+                                                data-toggle="tooltip" data-placement="bottom"
+                                                data-original-title="Log in with Instagram">
+                                                <i class="fab fa-instagram"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <form class="p-3" id="contact-form">
+                                    <div class="card-header px-4 py-sm-5 py-3">
+                                        <h2>Say Hi!</h2>
+                                        <p class="lead"></p>
+                                    </div>
+                                    <div class="card-body pt-1">
+                                        <div class="row">
+                                            <div class="col-md-12 pe-2 mb-3">
+                                                <div class="input-group input-group-static mb-4">
+                                                    <label>My name is</label>
+                                                    <input type="text" class="form-control" placeholder="Full Name">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 pe-2 mb-3">
+                                                <div class="input-group input-group-static mb-4">
+                                                    <label>I'm looking for</label>
+                                                    <input type="text" class="form-control" placeholder="Hiring, Services...">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 pe-2 mb-3">
+                                                <div class="input-group input-group-static mb-4">
+                                                    <label>Your message</label>
+                                                    <textarea name="message" class="form-control" id="message" rows="6"
+                                                        placeholder="I want to say that..."></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 text-end ms-auto">
+                                                <button  class="btn bg-gradient-info mb-0">Send
+                                                    Message</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -------- START FOOTER 5 w/ DARK BACKGROUND ------- -->
+    <footer class="footer py-5">
+        <div class="container z-index-1 position-relative">
+            <div class="row">
+                
+            </div>
+        </div>
+    </footer>
+    <!-- -------- END FOOTER 5 w/ DARK BACKGROUND ------- -->
+    <!--   Core JS Files   -->
+    <script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="../assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../assets/js/plugins/perfect-scrollbar.min.js"></script>
+   
+   
+   
+</body>
 
-			<section class="colorlib-about" data-section="about">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="col-md-12">
-									<div class="about-desc">
-										<span class="heading-meta">About Me</span>
-										<h2 class="colorlib-heading">Who Am I?</h2>
-										<p><strong>Hi I'm Shawn Dreifuss</strong> Fueled by high energy levels and boundless enthusiasm, I'm easily inspired and more then willing to follow my fascinations wherever they take me. I'm passionate, expressive, multi-talented spirit with a natural ability to entertain and inspire. I'm never satisfied to just come up with ideas. Instead I have an almost impulsive need to act on them.</br></br>
-
-											My abundant energy fuels me in the pursuit of many interests, hobbies, areas of study and artistic endeavors. I'm a fast learner, able to pick up new skills and juggle different projects and roles with relative ease.</br></br>
-											
-											I don't like to define myself by the work I've done. I define myself by the work I want to do. Skills can be taught, personality is inherent. I prefer to keep learning, continue challenging myself, and do interesting things that matter</p>
-										</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-									<div class="services color-1">
-										<span class="icon2"><i class="icon-bulb"></i></span>
-										<h3>Graphic Design</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
-									<div class="services color-2">
-										<span class="icon2"><i class="icon-globe-outline"></i></span>
-										<h3>Web Design</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
-									<div class="services color-3">
-										<span class="icon2"><i class="icon-data"></i></span>
-										<h3>Software</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
-									<div class="services color-4">
-										<span class="icon2"><i class="icon-phone3"></i></span>
-										<h3>Application</h3>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<!-- <div class="hire">
-										<h2>I am happy to know you <br>that 300+ projects done sucessfully!</h2>
-										<a href="#" class="btn-hire">Hire me</a>
-									</div> -->
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-
-			<!-- Skills section -->
-			<!-- <section class="colorlib-services" data-section="services">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">What I do?</span>
-							<h2 class="colorlib-heading">Here are some of my skills</h2>
-						</div>
-					</div>
-					<div class="row row-pt-md">
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-1">
-								<span class="icon">
-									<i class="icon-bulb"></i>
-								</span>
-								<div class="desc">
-									<h3>Innovative Ideas</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-2">
-								<span class="icon">
-									<i class="icon-data"></i>
-								</span>
-								<div class="desc">
-									<h3>Software</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-3">
-								<span class="icon">
-									<i class="icon-phone3"></i>
-								</span>
-								<div class="desc">
-									<h3>Application</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-4">
-								<span class="icon">
-									<i class="icon-layers2"></i>
-								</span>
-								<div class="desc">
-									<h3>Graphic Design</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-5">
-								<span class="icon">
-									<i class="icon-data"></i>
-								</span>
-								<div class="desc">
-									<h3>Software</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-6">
-								<span class="icon">
-									<i class="icon-phone3"></i>
-								</span>
-								<div class="desc">
-									<h3>Application</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section> -->
-			
-			<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
-				<div class="overlay"></div>
-				<div class="colorlib-narrow-content">
-					<div class="row">
-					</div>
-					<div class="row">
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="309" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Cups of coffee</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="23" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Projects</span>
-						</div>
-						<!-- <div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="30" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Clients</span>
-						</div> -->
-						<!-- <div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="10" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Partners</span>
-						</div> -->
-					</div>
-				</div>
-			</div>
-
-			
-
-			<!-- <section class="colorlib-education" data-section="education">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Education</span>
-							<h2 class="colorlib-heading animate-box">Education</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<div class="fancy-collapse-panel">
-								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingOne">
-									        <h4 class="panel-title">
-									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Master Degree Graphic Design
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-									         <div class="panel-body">
-									            <div class="row">
-										      		<div class="col-md-6">
-										      			<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-										      		</div>
-										      		<div class="col-md-6">
-										      			<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-										      		</div>
-										      	</div>
-									         </div>
-									    </div>
-									</div>
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingTwo">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bachelor Degree of Computer Science
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-									        <div class="panel-body">
-									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-													<ul>
-														<li>Separated they live in Bookmarksgrove right</li>
-														<li>Separated they live in Bookmarksgrove right</li>
-													</ul>
-									        </div>
-									    </div>
-									</div>
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingThree">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Diploma in Information Technology
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-									        <div class="panel-body">
-									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
-									        </div>
-									    </div>
-									</div>
-
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingFour">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Diploma in Information Technology
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-									        <div class="panel-body">
-									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
-									        </div>
-									    </div>
-									</div>
-
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingFive">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">High School Secondary Education
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-									        <div class="panel-body">
-									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
-									        </div>
-									    </div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section> -->
-
-			<section class="colorlib-experience" data-section="experience">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Experience</span>
-							<h2 class="colorlib-heading animate-box">Work Experience</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-				         <div class="timeline-centered">
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-
-					               <div class="timeline-icon color-1">
-					                  <i class="icon-pen2"></i>
-					               </div>
-
-					               <div class="timeline-label">
-					                  <h2><a href="#"> University of Los Angeles</a> <span>2023</span></h2>
-					                   <p>a rigorous and immersive program where I learned skills and knowledge needed to excel in the field of web development. Both frontend and backend technologies, providing a comprehensive understanding of full stack development. With a focus on hands-on projects, collaboration, and industry-relevant tools! </p> 
-					               </div>
-					            </div>
-					         </article>
-
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-2">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">Full Stack Developer</a>  <span></span></h2>
-					                   <p>As a Full Stack Developer I am responsible for working on both front-end and back-end development processes. The design, development, and to maintain a fully-fledged and functioning platforms with databases and servers.</p> 
-					               </div>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-3">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">Backend Developer</a> <span></span></h2>
-					                 <p> As backend developer I am responsible for the server-side development and functionality of a website or application. I have worked with languages such as JavaScript, Node.js, Express, MongoDB, to handle data storage, security, and server operations. My biggest focuses were on building the logic and infrastructure that powers the functionality of web applications, ensuring they are reliable, scalable, and efficient.</p> 
-					               </div>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-4">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">FrontEnd Developer</a> <span></span></h2>
-					                  <p> I specialize in creating the visual elements and user interface of a website or application. I am proficient in languages such as HTML, CSS, JavaScript, React and TailwindCSS to bring designs to life and ensure a seamless user experience. With a strong eye for design and a focus on user interaction, I have played a critical role in building engaging and responsive websites.</p> 
-					               </div>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-5">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">UI/UX Designer</a> <span></span></h2>
-					                   <p>I have created the visual elements, layout, and interactive components of a website or application, while designing my focus is on the overall user experience, ensuring that the product is intuitive, easy to navigate, and meets users' needs.</p> 
-					               </div>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-none">
-					               </div>
-					            </div>
-					         </article>
-					      </div>
-					   </div>
-				   </div>
-				</div>
-			</section>
-
-			<section class="colorlib-work" data-section="work">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">My Work</span>
-							<h2 class="colorlib-heading animate-box">Recent Work</h2>
-						</div>
-					</div>
-					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-						<div class="col-md-12">
-							<p class="work-menu"><span><a href="#" class="active">Graphic Design</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/chat-application.png);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="https://sweet-souffle-90e0b9.netlify.app/">Chat Application</a></h3>
-										<span>Messaging App</span>
-										
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/shapeshift.png);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="https://github.com/shawndreifuss/ShapeShift">Shapeshift Blog</a></h3>
-										<span>Blog</span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
-							<div class="project" style="background-image: url(images/coding-quiz.png);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="https://github.com/shawndreifuss/coding-quiz">Coding Quiz</a></h3>
-										<span>Coding Quiz</span>
-										
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-							<div class="project" style="background-image: url(images/tinywear-checkout.png);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="https://github.com/bellaloc/TinyWear">Tiny Wear</a></h3>
-										<span>E-commerce</span>
-										
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/socialapi.png);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="https://github.com/shawndreifuss/social-media-api">social-Media-Api</a></h3>
-										<span>REST API</span>
-										
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/travelguide.png);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="https://github.com/ramitaarora/travel-guide">Travel Guide</a></h3>
-										<span>Web Design</span>
-										
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<!-- <div class="col-md-12 animate-box">
-							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
-						</div> -->
-					</div>
-				</div>
-			</section>
-<!-- RECENT BLOGS -->
-			<!-- <section class="colorlib-blog" data-section="blog">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Read</span>
-							<h2 class="colorlib-heading">Recent Blog</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Renovating National Gallery</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Wordpress for a Beginner</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Make website from scratch</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box">
-							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
-						</div>
-					</div>
-				</div>
-			</section> -->
-
-			<section class="colorlib-contact" data-section="contact">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Get in Touch</span>
-							<h2 class="colorlib-heading">Contact</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-5">
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-globe-outline"></i>
-								</div>
-								<div class="colorlib-text">
-									<p><a href="#">ShawnDreifuss@icloud.com</a></p>
-								</div>
-							</div>
-
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-map"></i>
-								</div>
-								<div class="colorlib-text">
-									<p>San Diego </p>
-								</div>
-							</div>
-
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-phone"></i>
-								</div>
-								<div class="colorlib-text">
-									<p><a href="tel://">760 470 0245</a></p>
-								</div>
-							</div>
-			
-							
-						</div>
-						<!-- <div class="col-md-7 col-md-push-1">
-							<div class="row">
-								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
-									<form action="">
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Name">
-										</div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Email">
-										</div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Subject">
-										</div>
-										<div class="form-group">
-											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-										</div>
-										<div class="form-group">
-											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
-										</div>
-									</form>
-								</div>
-								
-							</div>
-						</div> -->
-					</div>
-				</div>
-			</section>
-
-		</div><!-- end:colorlib-main -->
-	</div><!-- end:container-wrap -->
-	</div><!-- end:colorlib-page -->
-
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- Owl carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- Counters -->
-	<script src="js/jquery.countTo.js"></script>
-	
-	
-	<!-- MAIN JS -->
-	<script src="js/main.js"></script>
-
-	</body>
 </html>
-
