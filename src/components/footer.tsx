@@ -12,6 +12,7 @@ export function Footer() {
             {LINKS.map((link, idx) => (
               <li key={link}>
                 <Typography
+                 placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
                   as="a"
                   href="#"
                   className={`py-1 font-normal !text-gray-700 transition-colors hover:!text-gray-900 ${
@@ -24,16 +25,16 @@ export function Footer() {
             ))}
           </ul>
           <div className="gap-2 lg:flex items-center justify-center">
-            <IconButton variant="text" color="gray" size="sm">
+            <IconButton  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} variant="text" color="gray" size="sm">
               <i className="fa-brands fa-twitter text-lg" />
             </IconButton>
-            <IconButton variant="text" color="gray" size="sm">
+            <IconButton  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} variant="text" color="gray" size="sm">
               <i className="fa-brands fa-youtube text-lg" />
             </IconButton>
-            <IconButton variant="text" color="gray" size="sm">
+            <IconButton  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} variant="text" color="gray" size="sm">
               <i className="fa-brands fa-instagram text-lg" />
             </IconButton>
-            <IconButton variant="text" color="gray" size="sm">
+            <IconButton  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} variant="text" color="gray" size="sm">
               <i className="fa-brands fa-github text-lg" />
             </IconButton>
           </div>

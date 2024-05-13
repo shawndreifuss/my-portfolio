@@ -15,7 +15,7 @@ interface NavItemProps {
 function NavItem({ children, href }: NavItemProps) {
   return (
     <li>
-      <Typography
+      <Typography  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
         as="a"
         href={href || "#"}
         target={href ? "_blank" : "_self"}
@@ -59,6 +59,7 @@ export function Navbar() {
 
   return (
     <MTNavbar
+    placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
       fullWidth
       shadow={false}
       blurred={false}
@@ -66,7 +67,7 @@ export function Navbar() {
       className="fixed top-0 z-50 border-0"
     >
       <div className="container mx-auto flex items-center justify-between">
-        <Typography variant="h6" color={isScrolling ? "blue-gray" : "white"}>
+        <Typography  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} variant="h6" color={isScrolling ? "blue-gray" : "white"}>
           Shawn Dreifuss
         </Typography>
         <ul
@@ -82,10 +83,11 @@ export function Navbar() {
         </ul>
         <div className="hidden items-center lg:flex gap-2">
           <a href="/img/Shawn-Dreifuss-Full-Stack-Developer.pdf" target="_blank" download>
-            <Button color={isScrolling ? "gray" : "white"}>Download Resume</Button>
+            <Button  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} color={isScrolling ? "gray" : "white"}>Download Resume</Button>
           </a>
         </div>
         <IconButton
+         placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
           variant="text"
           color="white"
           onClick={handleOpen}
@@ -108,7 +110,7 @@ export function Navbar() {
           </ul>
           <div className="mt-6 flex items-center gap-4">
           <a href="/img/Shawn-Dreifuss-Full-Stack-Developer.pdf" target="_blank" download>
-            <Button color={isScrolling ? "gray" : "white"}>Download Resume</Button>
+            <Button  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} color={isScrolling ? "gray" : "white"}>Download Resume</Button>
           </a>
           </div>
         </div>

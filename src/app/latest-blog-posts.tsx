@@ -36,7 +36,7 @@ export function LatestBlogPosts() {
   return (
     <section className="py-40 px-8">
       <div className="container mx-auto mb-12">
-        <Typography variant="h3" color="blue-gray">
+        <Typography placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} variant="h3" color="blue-gray">
           Check my latest work!
         </Typography>
       </div>
@@ -45,25 +45,25 @@ export function LatestBlogPosts() {
           <BlogPostCard key={idx} {...props} />
         ))}
         <Card
+         placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
           className="relative grid h-full w-full place-items-center overflow-hidden
             bg-black"
         >
           <div className="absolute inset-0 h-full w-full bg-gray-900/75" />
           <Link href="https://github.com/shawndreifuss">
-          <CardBody className="relative w-full">
-            <Typography variant="h3" className="mt-4" color="white">
+          <CardBody className="relative w-full"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+            <Typography placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} variant="h3" className="mt-4" color="white">
               Discover all my Work
             </Typography>
-            <Typography color="white" className="py-4 font-normal">
+            <Typography placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} color="white" className="py-4 font-normal">
               I am a versatile developer in a wide range of technologies. Check out all my projects 
             </Typography>
             
             <Button
               
-              variant="text"
-              color="white"
-              className="flex items-center gap-2"
-            >
+                variant="text"
+                color="white"
+                className="flex items-center gap-2"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}            >
               My Github
               <ArrowRightIcon
                 strokeWidth={3}

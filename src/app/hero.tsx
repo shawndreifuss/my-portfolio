@@ -17,7 +17,7 @@ function Hero() {
           className="w-40 rounded-xl"
         />
         <div className="flex mt-16 justify-between">
-          <Typography variant="h5" className="text-3xl">
+          <Typography placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} variant="h5" className="text-3xl">
             Shawn Dreifuss Full Stack Developer
           </Typography>
         </div>
@@ -25,11 +25,11 @@ function Hero() {
          
 
         </div>
-        <Typography variant="lead" className="!text-gray-500 mt-8">
-        Hi I'm Shawn Dreifuss Fueled by high energy levels and boundless enthusiasm, I'm
+        <Typography variant="lead" className="!text-gray-500 mt-8"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+        Hi I&aposm Shawn Dreifuss Fueled by high energy levels and boundless enthusiasm, I&aposm
                                     easily inspired and more then willing to follow my fascinations wherever they take
-                                    me. I'm passionate, expressive, multi-talented spirit with a natural ability to
-                                    entertain and inspire. I'm never satisfied to just come up with ideas. Instead I
+                                    me. I&aposm passionate, expressive, multi-talented spirit with a natural ability to
+                                    entertain and inspire. I&aposm never satisfied to just come up with ideas. Instead I
                                     have an almost impulsive need to act on them.
         </Typography>
         {/* <Button
