@@ -25,10 +25,10 @@ const BLOG_POSTS = [
     link: "https://auroraproduction.vercel.app/"
   },
   {
-    img: "/img/blog-image-work.webp",
-    title: "Blog app: A full-stack blog application",
-    desc: "Blog application with admin dashboard built with Next.js, TypeScript, Tailwind CSS, Vercel, and MongoDB.",
-    link: "https://blogappproduction.vercel.app/"
+    img: "https://img.freepik.com/premium-vector/chat-app-logo-sms-messenger-label-design-mobile-app-online-conversation-with-texting-message-ui-design-concept-vector-illustration_172533-1513.jpg",
+    title: "Chat app: A real-time chat application",
+    desc: "Chat application for real time messaging and chatting built with React, Javascript, Tailwind CSS, Netlify, and Firebase.",
+    link: "https://app.netlify.com/sites/sweet-souffle-90e0b9/overview"
   },
 ];
 
