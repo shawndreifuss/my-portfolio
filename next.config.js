@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/shawndreifuss.com',
+  basePath: '',
   images: {
     remotePatterns: [
       {
