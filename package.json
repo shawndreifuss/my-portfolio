@@ -1,31 +1,40 @@
 {
-  "name": "shawn-dreifuss-portfolio",
+  "name": "webpack-setup",
   "version": "1.0.0",
-  "private": true,
-  "author": "Shawn Dreifuss",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "webpack --mode development",
+    "watch": "webpack --mode development --watch",
+    "build": "webpack -p"
   },
-  "dependencies": {
-    "@heroicons/react": "2.0.18",
-    "@material-tailwind/react": "2.1.2",
-    "@netlify/plugin-nextjs": "^5.4.0",
-    "next": "^13.5.0",
-    "react": "18",
-    "react-dom": "18"
-  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "@types/node": "20",
-    "@types/react": "18",
-    "@types/react-dom": "18",
-    "autoprefixer": "10",
-    "eslint": "8",
-    "eslint-config-next": "13.5.4",
-    "postcss": "8",
-    "tailwindcss": "3",
-    "typescript": "5"
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "autoprefixer": "^9.7.1",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "postcss-loader": "^3.0.0",
+    "purgecss-webpack-plugin": "^1.6.0",
+    "sass-loader": "^8.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie < 11",
+    "last 2 versions",
+    "> 1%",
+    "iOS 7",
+    "last 3 iOS versions"
+  ],
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1",
+    "node-sass": "^4.14.1"
   }
 }
